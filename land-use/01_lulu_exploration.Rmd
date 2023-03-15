@@ -25,9 +25,9 @@ library(gt)
 
 colors_alt <- c("89a7a7","d1345b","f2a65a","2f4858","5b5f97")
 
-dir <- "C:/Users/eliza/GitHub/land-use/raw_data"
+dir <- "/Users/eliza/Documents/Data/Fair_Share_Data/raw_data"
 
-out_dir <- "C:/Users/eliza/GitHub/land-use/Images"
+out_dir <- "/Users/eliza/Documents/Data/Fair_Share_Data/Images"
 
 # GEOLEVEL - CDTA 
 cdta <- st_read(dsn = paste0(dir, "/nycdta2020_22b"), 
